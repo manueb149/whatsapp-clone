@@ -1,0 +1,32 @@
+{
+  "name": "whatsapp-clone",
+  "version": "1.0.0",
+  "description": "Clon de Whatsapp para proyecto de cinta negra",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manueb149/whatsapp-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manueb149/whatsapp-clone/issues"
+  },
+  "homepage": "https://github.com/manueb149/whatsapp-clone#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.0.0",
+    "bcrypt": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "joi": "^17.2.1",
+    "mongoose": "^5.10.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
